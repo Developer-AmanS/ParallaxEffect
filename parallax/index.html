@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Parallax Effect</title>
+</head>
+
+<body>
+    <div id="background">
+        <div id="overlay">
+            <nav>
+                <h3>Trav.co</h3>
+                <button>Sign in</button>
+            </nav>
+            <h1>Fly High</h1>
+            <footer>
+                <div id="left">
+                    <h2>
+                        <span id="big">09</span> /10
+                    </h2>
+                </div>
+                <div id="right">
+                    <a href="#">facebook</a>
+                    <a href="#">twitter</a>
+                    <a href="#">instagram</a>
+                </div>
+            </footer>
+        </div>
+        <img data-depth=".08" id="sky" class="parallax" src="./images/sky.png" alt="">
+        <img data-depth=".1" id="pahad" class="parallax" src="./images/pahad1.png" alt="">
+        <img data-depth=".2" id="man" class="parallax" src="./images/pahadman.png" alt="">
+        <div id="gradient">
+
+        </div>
+    </div>
+
+    <div id="content">
+        <div id="elems">
+            <div class="block">
+                <div class="img" id="img1"></div>
+                <h5>Air</h5>
+            </div>
+            <div class="block">
+                <div class="img" id="img2"></div>
+                <h5>Land</h5>
+
+            </div>
+            <div class="block">
+                <div class="img" id="img3"></div>
+                <h5>Sea</h5>
+
+            </div>
+            <div class="block">
+                <div class="img" id="img4"></div>
+                <h5>Space</h5>
+
+            </div>
+        </div>
+
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora, placeat cumque. Nam cumque nesciunt
+            recusandae maiores fugiat vero, exercitationem aliquid.</p>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"
+        integrity="sha512-UxP+UhJaGRWuMG2YC6LPWYpFQnsSgnor0VUF3BHdD83PS/pOpN+FYbZmrYN+ISX8jnvgVUciqP/fILOXDjZSwg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollTrigger.min.js"
+            integrity="sha512-DlTk2PLUinhBupE89kHOJTt11QqbRMQVlbb26XVDvp4D1kt0fRvQJslvZnTelRJHq6yK0tIPCR7cul8+9Blz0g=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
